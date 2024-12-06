@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai Star Rail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="hrs.png">
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 100%;
+        }
+        #grad {
+            background-image: linear-gradient(rgb(7, 146, 201), rgb(25, 0, 85));
+        }
+        .column {
+            float: left;
+            padding: 5px;
+            flex: 33.33%;
+        }
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        body {
+            background-image: url('shared image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 100vh;
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+    body {
+        background-position: top;
+        background-size: contain;
+        
+    }
+}
+ 
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal1">Open List</button>
+    </div>
+ 
+ 
+    <div class="modal" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><img src="hsr.jpg" width="100px" alt=""></h4>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="grad">
+                    <h1 style="color: aliceblue; font-family: 'Times New Roman';">Location</h1>
+                    <h3 style="color: aliceblue; font-family: 'Times New Roman';">Astral Express</h3>
+                    <img src="train.webp" style="border-radius: 10%;" alt="" class="center">
+                   
+                    <div class="row" style="color: aliceblue; font-family: 'Times New Roman';">
+                        <div class="column">
+                            <p>Stelle
+                                <a href="" data-bs-toggle="modal" data-bs-target="#modal-small1">
+                                    <img src="stelle.png" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                                </a>
+                            </p>
+                        </div>
+                        <div class="column" >
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small2">
+                                <p>March 7th
+                                    <img src="march.jfif" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                                </p>
+                            </a>    
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small3">
+                            <p>Himeko
+                                <img src="himeko.jfif" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small4">
+                                <p>Dan Heng
+                                    <img src="daheng.jpg" style="width: 50%; height: 70%; border-radius: 50%;" alt="">
+                                </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small5">
+                                <p>Welt Yang
+                                    <img src="welt.jpg" style="width: 50%; height: 70%; border-radius: 50%;" alt="">
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 style="color: aliceblue; font-family: 'Times New Roman'; background-color: blueviolet;">Cosmic</h3>
+                    <div class="row" style="color: aliceblue; font-family: 'Times New Roman';">
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small6">
+                                <p>Acheron
+                                    <img src="acheron.jpg" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                                </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small7">
+                            <p>Argenti
+                                <img src="argenti.jpg" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small8">
+                            <p>Black Swan
+                                <img src="blackswan.jpg" style="width: 90%; height: 50%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small9">
+                            <p>Boothill
+                                <img src="boothill.jpg" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small10">
+                            <p>Dr. Ratio
+                                <img src="ratio.jpg" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small11">
+                            <p>Rappa
+                                <img src="rappa.jpg" style="width: 80%; height: 90%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal-small12">
+                            <p>Sparkle
+                                <img src="sparkle.jpg" style="width: 27%; height: 30%; border-radius: 50%;" alt="">
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="testmodal.html" type="button" class="btn btn-secondary">Continue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="modal fade" id="modal-small1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="stelle.png" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Trailblazer/Stelle Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Trailblazer/Stelle.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small2" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="march.jfif" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">March 7th Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected March 7th.</p>
+                    <p>Click Continue to proceed!</p>
+                 
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small3" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="himeko.jfif" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Himeko Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Himeko.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small4" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="daheng.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Dan Heng Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Dan Heng.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small5" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="welt.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Welt Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Welt Yang.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small6" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="acheron.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Acheron Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Acheron.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small7" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="argenti.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Argenti Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Argenti.</p>
+                    <p>Click Continue to proceed!</p>
+   
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small8" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="blackswan.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Black Swan Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Black Swan.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small9" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="boothill.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Boothill Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Boothill.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small10" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="ratio.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Dr.Ratio Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Dr.Ratio.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small11" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="rappa.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Rappa Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Rappa.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-small12" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="sparkle.jpg" alt="Trailblazer" style="width: 60px; height: auto; border-radius: 20%;" class="me-3">
+                    <h5 class="modal-title" id="modal1Label">Sparkle Selected</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You have selected Sparkle.</p>
+                    <p>Click Continue to proceed!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="joingame.html" role="button">Continue</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
